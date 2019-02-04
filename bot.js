@@ -6,14 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
+    if (message.content === 'help') {
+    	message.channel.send('Do dream.sources for more info.');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'bing') {
-    	message.reply('BONG!');
+    if (message.content === 'dream.sources') {
+    	message.reply('A portal to Dreamcast websites https://dreampipe.net');
   	}
 });
 
