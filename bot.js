@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'dream.sources') {
-    	message.reply('A portal to Dreamcast websites https://dreampipe.net');
+    	message.reply('A portal to Dreamcast websites https://dreampipe.net or https://www.sonicmuseum.tk for soniv info and Dreamcast info.');
   	}
 });
 
